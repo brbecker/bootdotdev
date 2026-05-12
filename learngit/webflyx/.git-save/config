@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[merge]
+	ff = yes
+[remote "origin"]
+	url = https://github.com/brbecker/webflyx.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[pull]
+	rebase = false
+[branch "main"]
+	vscode-merge-base = origin/main

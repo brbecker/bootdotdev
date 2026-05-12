@@ -1,0 +1,39 @@
+0000000000000000000000000000000000000000 a655dd3919dbdec99de273b43c416b68b8767a03 Brian R. Becker <brbecker@gmail.com> 1778376760 -0700	commit (initial): A: add contents.md
+a655dd3919dbdec99de273b43c416b68b8767a03 7bf03f92b13004b514cc031d7eb63541aa69dca0 Brian R. Becker <brbecker@gmail.com> 1778400896 -0700	commit: B: add titles
+7bf03f92b13004b514cc031d7eb63541aa69dca0 5d56b3b9b77b145adbbfab780f79462d2495a6af Brian R. Becker <brbecker@gmail.com> 1778443794 -0700	commit: C: add quotes
+5d56b3b9b77b145adbbfab780f79462d2495a6af 0000000000000000000000000000000000000000 Brian R. Becker <brbecker@gmail.com> 1778475628 -0700	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 5d56b3b9b77b145adbbfab780f79462d2495a6af Brian R. Becker <brbecker@gmail.com> 1778475628 -0700	Branch: renamed refs/heads/master to refs/heads/main
+5d56b3b9b77b145adbbfab780f79462d2495a6af 5d56b3b9b77b145adbbfab780f79462d2495a6af Brian R. Becker <brbecker@gmail.com> 1778476732 -0700	checkout: moving from main to add_classics
+5d56b3b9b77b145adbbfab780f79462d2495a6af 5d56b3b9b77b145adbbfab780f79462d2495a6af Brian R. Becker <brbecker@gmail.com> 1778476899 -0700	checkout: moving from add_classics to main
+5d56b3b9b77b145adbbfab780f79462d2495a6af 5d56b3b9b77b145adbbfab780f79462d2495a6af Brian R. Becker <brbecker@gmail.com> 1778476961 -0700	checkout: moving from main to add_classics
+5d56b3b9b77b145adbbfab780f79462d2495a6af c624f042fe83eaaf5537b1da683ae04f99a3596f Brian R. Becker <brbecker@gmail.com> 1778477531 -0700	commit: D: add classics
+c624f042fe83eaaf5537b1da683ae04f99a3596f 5d56b3b9b77b145adbbfab780f79462d2495a6af Brian R. Becker <brbecker@gmail.com> 1778478614 -0700	checkout: moving from add_classics to main
+5d56b3b9b77b145adbbfab780f79462d2495a6af 84c88f40a5b6d062aeea4517adbab7f70edfbee6 Brian R. Becker <brbecker@gmail.com> 1778479108 -0700	commit: E: update contents
+84c88f40a5b6d062aeea4517adbab7f70edfbee6 84c88f40a5b6d062aeea4517adbab7f70edfbee6 Brian R. Becker <brbecker@gmail.com> 1778479520 -0700	checkout: moving from main to main
+84c88f40a5b6d062aeea4517adbab7f70edfbee6 72fa014581e16db803d8cac884ed8cc190ed29b6 Brian R. Becker <brbecker@gmail.com> 1778480131 -0700	merge add_classics: Merge made by the 'ort' strategy.
+72fa014581e16db803d8cac884ed8cc190ed29b6 72fa014581e16db803d8cac884ed8cc190ed29b6 Brian R. Becker <brbecker@gmail.com> 1778486114 -0700	checkout: moving from main to update_titles
+72fa014581e16db803d8cac884ed8cc190ed29b6 9aaddc7192e8342e462351f16956918700db02a8 Brian R. Becker <brbecker@gmail.com> 1778486192 -0700	commit: G: update titles
+9aaddc7192e8342e462351f16956918700db02a8 72fa014581e16db803d8cac884ed8cc190ed29b6 Brian R. Becker <brbecker@gmail.com> 1778486420 -0700	checkout: moving from update_titles to main
+72fa014581e16db803d8cac884ed8cc190ed29b6 72fa014581e16db803d8cac884ed8cc190ed29b6 Brian R. Becker <brbecker@gmail.com> 1778486660 -0700	reset: moving to HEAD
+72fa014581e16db803d8cac884ed8cc190ed29b6 9aaddc7192e8342e462351f16956918700db02a8 Brian R. Becker <brbecker@gmail.com> 1778486687 -0700	checkout: moving from main to update_titles
+9aaddc7192e8342e462351f16956918700db02a8 72fa014581e16db803d8cac884ed8cc190ed29b6 Brian R. Becker <brbecker@gmail.com> 1778486707 -0700	checkout: moving from update_titles to main
+72fa014581e16db803d8cac884ed8cc190ed29b6 9aaddc7192e8342e462351f16956918700db02a8 Brian R. Becker <brbecker@gmail.com> 1778486731 -0700	merge update_titles: Fast-forward
+9aaddc7192e8342e462351f16956918700db02a8 c624f042fe83eaaf5537b1da683ae04f99a3596f Brian R. Becker <brbecker@gmail.com> 1778521482 -0700	checkout: moving from main to update_dune
+c624f042fe83eaaf5537b1da683ae04f99a3596f 0845b05cb9fe915a0ca43b68e063edf64867797b Brian R. Becker <brbecker@gmail.com> 1778521869 -0700	commit: H: spice flow
+0845b05cb9fe915a0ca43b68e063edf64867797b e2e9e66cd7f40645938cea0cb7ce2d7300863aa6 Brian R. Becker <brbecker@gmail.com> 1778521940 -0700	commit: I: mind-killer
+e2e9e66cd7f40645938cea0cb7ce2d7300863aa6 9aaddc7192e8342e462351f16956918700db02a8 Brian R. Becker <brbecker@gmail.com> 1778521999 -0700	rebase (start): checkout main
+9aaddc7192e8342e462351f16956918700db02a8 8128c8d190408b34fe7fece15e98084247ca3b14 Brian R. Becker <brbecker@gmail.com> 1778521999 -0700	rebase (pick): H: spice flow
+8128c8d190408b34fe7fece15e98084247ca3b14 2245726c367a3292624d2685c3152c0ba6d4f57d Brian R. Becker <brbecker@gmail.com> 1778521999 -0700	rebase (pick): I: mind-killer
+2245726c367a3292624d2685c3152c0ba6d4f57d 2245726c367a3292624d2685c3152c0ba6d4f57d Brian R. Becker <brbecker@gmail.com> 1778521999 -0700	rebase (finish): returning to refs/heads/update_dune
+2245726c367a3292624d2685c3152c0ba6d4f57d 87ef0d4fca2f9c8e23117580c5eaf3fba7468f12 Brian R. Becker <brbecker@gmail.com> 1778526740 -0700	commit: J: internship
+87ef0d4fca2f9c8e23117580c5eaf3fba7468f12 2245726c367a3292624d2685c3152c0ba6d4f57d Brian R. Becker <brbecker@gmail.com> 1778526949 -0700	reset: moving to 2245726
+2245726c367a3292624d2685c3152c0ba6d4f57d 2245726c367a3292624d2685c3152c0ba6d4f57d Brian R. Becker <brbecker@gmail.com> 1778527086 -0700	reset: moving to 2245726
+2245726c367a3292624d2685c3152c0ba6d4f57d 9aaddc7192e8342e462351f16956918700db02a8 Brian R. Becker <brbecker@gmail.com> 1778562942 -0700	checkout: moving from update_dune to main
+9aaddc7192e8342e462351f16956918700db02a8 2245726c367a3292624d2685c3152c0ba6d4f57d Brian R. Becker <brbecker@gmail.com> 1778564575 -0700	merge update_dune: Fast-forward
+2245726c367a3292624d2685c3152c0ba6d4f57d c52afffdba40d51bbe0c69a3f373f9f1edcbbf47 Brian R. Becker <brbecker@gmail.com> 1778564611 -0700	pull origin main: Merge made by the 'ort' strategy.
+c52afffdba40d51bbe0c69a3f373f9f1edcbbf47 c52afffdba40d51bbe0c69a3f373f9f1edcbbf47 Brian R. Becker <brbecker@gmail.com> 1778603584 -0700	checkout: moving from main to add_classics
+c52afffdba40d51bbe0c69a3f373f9f1edcbbf47 56ed247ab0b443f153e6f7d8251d415476c807d6 Brian R. Becker <brbecker@gmail.com> 1778603745 -0700	commit: L: add psycho
+56ed247ab0b443f153e6f7d8251d415476c807d6 c52afffdba40d51bbe0c69a3f373f9f1edcbbf47 Brian R. Becker <brbecker@gmail.com> 1778604764 -0700	checkout: moving from add_classics to main
+c52afffdba40d51bbe0c69a3f373f9f1edcbbf47 acc67c60a6ae73d1fae14fc3ae3617007f21907e Brian R. Becker <brbecker@gmail.com> 1778604783 -0700	pull origin main: Fast-forward
+acc67c60a6ae73d1fae14fc3ae3617007f21907e 1c8e1c9f86b733262cddf5973bb874ccdf180a01 Brian R. Becker <brbecker@gmail.com> 1778607789 -0700	commit: M: create .gitignore
+1c8e1c9f86b733262cddf5973bb874ccdf180a01 089f0e30356a58d09796934ab881705d33c2c0eb Brian R. Becker <brbecker@gmail.com> 1778609354 -0700	commit: N: add advert

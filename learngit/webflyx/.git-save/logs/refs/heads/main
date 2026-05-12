@@ -1,0 +1,12 @@
+0000000000000000000000000000000000000000 a655dd3919dbdec99de273b43c416b68b8767a03 Brian R. Becker <brbecker@gmail.com> 1778376760 -0700	commit (initial): A: add contents.md
+a655dd3919dbdec99de273b43c416b68b8767a03 7bf03f92b13004b514cc031d7eb63541aa69dca0 Brian R. Becker <brbecker@gmail.com> 1778400896 -0700	commit: B: add titles
+7bf03f92b13004b514cc031d7eb63541aa69dca0 5d56b3b9b77b145adbbfab780f79462d2495a6af Brian R. Becker <brbecker@gmail.com> 1778443794 -0700	commit: C: add quotes
+5d56b3b9b77b145adbbfab780f79462d2495a6af 5d56b3b9b77b145adbbfab780f79462d2495a6af Brian R. Becker <brbecker@gmail.com> 1778475628 -0700	Branch: renamed refs/heads/master to refs/heads/main
+5d56b3b9b77b145adbbfab780f79462d2495a6af 84c88f40a5b6d062aeea4517adbab7f70edfbee6 Brian R. Becker <brbecker@gmail.com> 1778479108 -0700	commit: E: update contents
+84c88f40a5b6d062aeea4517adbab7f70edfbee6 72fa014581e16db803d8cac884ed8cc190ed29b6 Brian R. Becker <brbecker@gmail.com> 1778480131 -0700	merge add_classics: Merge made by the 'ort' strategy.
+72fa014581e16db803d8cac884ed8cc190ed29b6 9aaddc7192e8342e462351f16956918700db02a8 Brian R. Becker <brbecker@gmail.com> 1778486731 -0700	merge update_titles: Fast-forward
+9aaddc7192e8342e462351f16956918700db02a8 2245726c367a3292624d2685c3152c0ba6d4f57d Brian R. Becker <brbecker@gmail.com> 1778564575 -0700	merge update_dune: Fast-forward
+2245726c367a3292624d2685c3152c0ba6d4f57d c52afffdba40d51bbe0c69a3f373f9f1edcbbf47 Brian R. Becker <brbecker@gmail.com> 1778564611 -0700	pull origin main: Merge made by the 'ort' strategy.
+c52afffdba40d51bbe0c69a3f373f9f1edcbbf47 acc67c60a6ae73d1fae14fc3ae3617007f21907e Brian R. Becker <brbecker@gmail.com> 1778604783 -0700	pull origin main: Fast-forward
+acc67c60a6ae73d1fae14fc3ae3617007f21907e 1c8e1c9f86b733262cddf5973bb874ccdf180a01 Brian R. Becker <brbecker@gmail.com> 1778607789 -0700	commit: M: create .gitignore
+1c8e1c9f86b733262cddf5973bb874ccdf180a01 089f0e30356a58d09796934ab881705d33c2c0eb Brian R. Becker <brbecker@gmail.com> 1778609354 -0700	commit: N: add advert
