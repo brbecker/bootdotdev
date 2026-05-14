@@ -7,6 +7,7 @@ from asteroidfield import AsteroidField
 from constants import SCREEN_HEIGHT, SCREEN_WIDTH
 from logger import log_event, log_state
 from player import Player
+from shot import Shot
 
 
 def main():
@@ -23,12 +24,14 @@ def main():
     # Create sprite groups
     asteroids = pygame.sprite.Group()
     drawable = pygame.sprite.Group()
+    shots = pygame.sprite.Group()
     updatable = pygame.sprite.Group()
 
     # Add classes to groups
     Asteroid.containers = (asteroids, drawable, updatable)
     AsteroidField.containers = (updatable,)
     Player.containers = (drawable, updatable)
+    Shot.containers = (drawable, shots, updatable)
 
     # Create initial objects
     asteroid_field = AsteroidField()
