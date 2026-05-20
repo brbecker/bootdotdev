@@ -3,6 +3,7 @@ import os
 
 from dotenv import load_dotenv
 from google import genai
+from google.genai import types
 
 
 def main():
@@ -17,10 +18,14 @@ def main():
     if api_key is None:
         raise RuntimeError("GEMINI_API_KEY not defined")
 
+    messages: list[types.Content] = [
+        types.Content(role="user", parts=[types.Part(text=args.user_prompt)])
+    ]
+
     client = genai.Client(api_key=api_key)
     response = client.models.generate_content(
         model="gemini-2.5-flash",
-        contents=args.user_prompt
+        contents=messages
     )
 
     if response.usage_metadata is None:
