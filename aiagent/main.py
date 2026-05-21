@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 
+from prompts import system_prompt
+
 
 def main():
     print("Hello from aiagent!")
@@ -26,7 +28,8 @@ def main():
     client = genai.Client(api_key=api_key)
     response = client.models.generate_content(
         model="gemini-2.5-flash",
-        contents=messages
+        config=types.GenerateContentConfig(system_instruction=system_prompt),
+        contents=messages,
     )
 
     if response.usage_metadata is None:
