@@ -15,7 +15,7 @@ class HTMLNode():
         self.children = children
         self.props = props
 
-    def to_html(self) -> str | NotImplementedError | ValueError:
+    def to_html(self) -> str:
         raise NotImplementedError()
     
     def props_to_html(self) -> str:

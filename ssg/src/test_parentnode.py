@@ -60,3 +60,7 @@ class TestParentNode(unittest.TestCase):
             "<div><span><b>grandchild1</b><i>grandchild2</i><b>grandchild3</b></span>"
             "</div>",
         )
+
+
+if __name__ == "__main__":
+    unittest.main()
