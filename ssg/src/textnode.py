@@ -2,7 +2,7 @@ from enum import Enum
 from types import NotImplementedType
 from typing import Optional
 
-from leafnode import LeafNode
+from .leafnode import LeafNode
 
 
 class TextType(Enum):
