@@ -1,20 +1,21 @@
 from types import NotImplementedType
+from typing import Optional
 
 
 class HTMLNode():
     def __init__(
             self,
-            tag: str | None = None,
-            value: str | None = None,
-            children: list["HTMLNode"] | None = None,
-            props: dict[str, str] | None = None,
-            ) -> None:
+            tag: Optional[str] = None,
+            value: Optional[str] = None,
+            children: Optional[list["HTMLNode"]] = None,
+            props: Optional[dict[str, str]] = None,
+    ) -> None:
         self.tag = tag
         self.value = value
         self.children = children
         self.props = props
 
-    def to_html(self) -> str | NotImplementedError:
+    def to_html(self) -> str | NotImplementedError | ValueError:
         raise NotImplementedError()
     
     def props_to_html(self) -> str:
@@ -35,7 +36,6 @@ class HTMLNode():
             self.children == other.children and
             self.props == other.props
         )
-
 
     def __repr__(self) -> str:
         return (

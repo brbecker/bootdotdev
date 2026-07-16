@@ -6,7 +6,7 @@ class TestHTMLNode(unittest.TestCase):
     def test_constructor(self) -> None:
         tag = "TAG"
         value = "VALUE"
-        children = ["CHILD1", "CHILD2"]
+        children = [HTMLNode("CHILD1"), HTMLNode("CHILD2")]
         props = {"PROP1": "VAL1", "PROP2": "VAL2"}
         node = HTMLNode(tag=tag, value=value, children=children, props=props)
         self.assertEqual(node.tag, tag)
@@ -28,7 +28,7 @@ class TestHTMLNode(unittest.TestCase):
     def test_eq(self) -> None:
         tag = "TAG"
         value = "VALUE"
-        children = ["CHILD1", "CHILD2"]
+        children = [HTMLNode("CHILD1"), HTMLNode("CHILD2")]
         props = {"PROP1": "VAL1", "PROP2": "VAL2"}
         node1 = HTMLNode(tag=tag, value=value, children=children, props=props)
         node2 = HTMLNode(tag=tag, value=value, children=children, props=props)
