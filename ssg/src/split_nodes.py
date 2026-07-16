@@ -56,7 +56,7 @@ def split_nodes_image(old_nodes: list[TextNode]) -> list[TextNode]:
             splits = text.split(f"![{image[0]}]({image[1]})", maxsplit=1)
 
             # There should always be exactly 2 elements in splits.
-            assert len(splits) == 2
+            assert len(splits) == 2, f"Could not find image in text?!? {text}"
 
             # Add the first split as a plain text node if non-empty.
             if len(splits[0]) > 0:
@@ -91,7 +91,7 @@ def split_nodes_link(old_nodes: list[TextNode]) -> list[TextNode]:
             splits = text.split(f"[{link[0]}]({link[1]})", maxsplit=1)
 
             # There should always be exactly 2 elements in splits.
-            assert len(splits) == 2
+            assert len(splits) == 2, f"Could not find link in text?!? {text}"
 
             # Add the first split as a plain text node if non-empty.
             if len(splits[0]) > 0:
