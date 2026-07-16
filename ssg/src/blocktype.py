@@ -18,7 +18,7 @@ def block_to_block_type(block: str) -> BlockType:
         return BlockType.HEADING
     
     # Code
-    if block.startswith("```\n") and block.endswith("\n```"):
+    if block.startswith("```\n") and block.endswith("```"):
         return BlockType.CODE
 
     # Remaining tests look at each line.
