@@ -1,17 +1,17 @@
-# from pathlib import Path
+from pathlib import Path
 
 from .clone_folder import clone_folder
-# from .textnode import TextNode, TextType
+from .generate_page import generate_page
 
 
 def main() -> None:
-    # node = TextNode(
-    #     "This is some anchor text",
-    #     TextType.LINK,
-    #     "https://www.boot.dev",
-    #     )
-    # print(node)
     clone_folder("static", "public")
+    generate_page(
+        Path("content/index.md"), 
+        Path("template.html"), 
+        Path("public/index.html")
+    )
+
 
 if __name__ == "__main__":
     main()
