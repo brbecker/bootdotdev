@@ -1,15 +1,13 @@
-from pathlib import Path
-
 from .clone_folder import clone_folder
-from .generate_page import generate_page
+from .generate_pages_recursively import generate_pages_recursively
 
 
 def main() -> None:
     clone_folder("static", "public")
-    generate_page(
-        Path("content/index.md"), 
-        Path("template.html"), 
-        Path("public/index.html")
+    generate_pages_recursively(
+        "content",
+        "template.html",
+        "public",
     )
 
 
