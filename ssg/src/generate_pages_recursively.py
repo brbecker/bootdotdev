@@ -9,6 +9,7 @@ def generate_pages_recursively(
     dir_path_content: str,
     template_path: str,
     dest_dir_path: str,
+    basepath: str,
 ):
     if not os.path.exists(dest_dir_path):
         print(f"Creating directory {dest_dir_path}")
@@ -21,9 +22,9 @@ def generate_pages_recursively(
         if os.path.isfile(src):
             if src.endswith(".md"):
                 dst = os.path.join(dest_dir_path, e.replace(".md", ".html"))
-                generate_page(src, template_path, dst)
+                generate_page(src, template_path, dst, basepath)
             else:
                 print(f"{src} not a Markdown file, skipping")
         elif os.path.isdir(src):
             dst = os.path.join(dest_dir_path, e)
-            generate_pages_recursively(src, template_path, dst)
+            generate_pages_recursively(src, template_path, dst, basepath)
