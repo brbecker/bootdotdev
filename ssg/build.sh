@@ -1,1 +1,1 @@
-uv run python3 -m src.main "/bootdev/"
+uv run python3 -m src.main "/bootdotdev/"
