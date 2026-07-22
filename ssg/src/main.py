@@ -10,7 +10,7 @@ def main() -> None:
     else:
         basepath = "/"
 
-    dest_dir = "docs"
+    dest_dir = "../docs"
 
     clone_folder("static", dest_dir)
     generate_pages_recursively(
